@@ -48,6 +48,7 @@ document.addEventListener("DOMContentLoaded", function () {
   };
   document.getElementById('clear').onclick = function () {
     heading.textContent = "0";
+    location.reload()
   };
   document.getElementById("equals").onclick = function () {
     if (plusButtonPressed) {
