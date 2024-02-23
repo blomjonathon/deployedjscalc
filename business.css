@@ -1,0 +1,93 @@
+/* global */
+:root {
+  --text: #0a0a0a;
+  --subtext: #7f7f7f;
+  --border: #d8d8d8;
+}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  font-size: 18px;
+  margin: 0;
+  color: var(--text);
+  background-color:black
+}
+h1 {
+  margin: 0;
+  font-size: 48px;
+}
+h2 {
+  margin: 0;
+  font-size: 22px;
+}
+h3 {
+  margin: 0;
+}
+h4 {
+  margin: 0;
+}
+h5 {
+  margin: 0;
+}
+h6 {
+  margin: 0;
+}
+.titlejs{
+  color: white;
+  font-size: 48px;
+  display: flex;
+  justify-content: center;
+  margin-top: 60px
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  width: 100%;
+  height: 450px;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 3px solid black;
+  border-radius: 20px;
+  background-color: gray;
+}
+.calculator {
+  margin-top: 30px;
+  margin-left: 25px;
+  margin-right: 25px;
+  height: 50px;
+  font-size: 30px;
+}
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  height: 400px;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+.button {
+  width: calc((100% - 15px) / 4);
+  border-radius: 8px;
+  font-size: 40px;
+  border: 1px solid black;
+  background-color: blue;
+  margin-bottom: 5px;
+  margin-right: 5px;
+}
+.buttons .special-button {
+  margin-right: 0px;
+}
+button:active {
+  background-color: rgb(9, 9, 188);
+}
+.button:nth-child(4n) {
+  margin-right: 0px;
+}
+.button:last-child {
+  width: calc((50% - 2.5px));
+}
+
